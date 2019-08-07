@@ -173,10 +173,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ),
 
 [LAYER_4] = LAYOUT_planck_grid(
-    _______, _______, KC_BSPC, KC_UP,   _______, _______, _______, _______, _______,  _______, _______, _______,
-    _______, _______, KC_LEFT, KC_DOWN, KC_RGHT, _______, _______, _______, _______,  _______, _______, _______,
-    _______, _______, _______, _______, _______, _______, _______, _______, _______,  _______, _______, _______,
-    _______, _______, _______, _______, _______, _______, _______, _______, _______,  _______, _______, _______
+    XXXXXXX, XXXXXXX, KC_BSPC, KC_UP,   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+    XXXXXXX, XXXXXXX, KC_LEFT, KC_DOWN, KC_RGHT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX
 )
 
 };
