@@ -25,10 +25,10 @@ enum planck_layers {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [LAYER_1] = LAYOUT_planck_grid(
-    KC_TAB     , KC_X   , KC_V   , KC_L   , KC_C       , KC_W  , KC_K  , KC_H       , KC_G   , KC_F   , KC_Q   , XXXXXXX          ,
-    MO(LAYER_3), KC_U   , KC_I   , KC_A   , KC_E       , KC_O  , KC_S  , KC_N       , KC_R   , KC_T   , KC_D   , LT(LAYER_3, KC_Y),
-    KC_LSFT    , DE_UE  , DE_OE  , DE_AE  , KC_P       , KC_Z  , KC_B  , KC_M       , KC_COMM, KC_DOT , KC_J   , KC_RSFT          ,
-    RGB_TOG    , KC_LCTL, KC_LALT, KC_LGUI, MO(LAYER_4), KC_SPC, KC_SPC, MO(LAYER_4), KC_LGUI, KC_RCTL, XXXXXXX, RGB_MOD
+    KC_TAB     , KC_X              , KC_V   , KC_L   , KC_C       , KC_W  , KC_K  , KC_H       , KC_G   , KC_F   , KC_Q   , XXXXXXX          ,
+    MO(LAYER_3), KC_U              , KC_I   , KC_A   , KC_E       , KC_O  , KC_S  , KC_N       , KC_R   , KC_T   , KC_D   , LT(LAYER_3, KC_Y),
+    KC_LSFT    , LT(LAYER_4, DE_UE), DE_OE  , DE_AE  , KC_P       , KC_Z  , KC_B  , KC_M       , KC_COMM, KC_DOT , KC_J   , KC_RSFT          ,
+    RGB_TOG    , KC_LCTL           , KC_LALT, KC_LGUI, XXXXXXX    , KC_SPC, KC_SPC, MO(LAYER_4), KC_LGUI, KC_RCTL, XXXXXXX, RGB_MOD
 ),
 [LAYER_3] = LAYOUT_planck_grid(
     XXXXXXX, XXXXXXX, KC_UNDS, KC_LBRC, KC_RBRC, KC_CIRC, KC_EXLM, KC_LABK, KC_RABK, KC_EQL , KC_AMPR, XXXXXXX,
